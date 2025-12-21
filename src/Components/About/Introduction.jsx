@@ -3,7 +3,6 @@ import "./Introduction.css";
 import ExitToAppIcon from "@material-ui/icons/ExitToApp";
 import { ThemeContext } from "../../Context/theme";
 
-
 export const Introduction = () => {
   const [{ themename }] = React.useContext(ThemeContext);
 
@@ -24,20 +23,18 @@ export const Introduction = () => {
             <div className="introduction_datacontainer">
               <h4>
                 Hi Everyone, I am{" "}
-                <span className="different">Yogeshvari Surywanshi </span> from{" "}
-                <span className="different"> Indore, Madhya Pradesh</span>. I have
-                completed my graduation in Bachelor of Technology from Lakshmi Narain college of 
-                Technology Indore. An aspiring full-stack web
-                  developer is skilled in developing
-                  scalable user interfaces to improve
-                  user satisfaction. Highly skilled at
-                  coordinating with cross-functional
-                  teams to brainstorm mock-ups.
-
+                <span className="different">Yogeshvari Suryawanshi </span> a{" "}
+                <span className="different"> Full Stack MERN Developer </span>
+                with 2.5 years of professional experience in building scalable,
+                high-performance web applications. I specialize in developing
+                modern, responsive user interfaces with React.js and delivering
+                robust backend solutions using Node.js, Express, and MongoDB. I
+                have hands-on experience with REST API development, AWS S3
+                integration, performance optimization, and SEO. I enjoy
+                collaborating with cross-functional teams to build reliable,
+                user-focused, and production-ready applications.
               </h4>
-              <h4>
-                Some of my interests apart form Coding :
-              </h4>
+              <h4>Some of my interests outside of development :</h4>
               <h4 className="different">
                 <span className="icons">
                   <ExitToAppIcon />

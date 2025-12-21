@@ -16,15 +16,17 @@ export const About = () => {
     <>
       <div className="about center">
         <h1 data-aos="fade-right">
-          Hi, I am <span className="about__name">Yogeshvari Surywanshi</span>
+          Hi, I am <span className="about__name">Yogeshvari Suryawanshi</span>
         </h1>
         <Type />
         <p className="about__desc" data-aos="fade-right">
-          A Full Stack Developer who loves solving problems and building projects. I am equipped with a variety of technologies and tools to help me build the best possible product.
+          Full Stack MERN Developer building scalable web applications using
+          React, Node.js, Express, and MongoDB. Experienced in responsive UI
+          development, REST APIs, and SEO optimization.
         </p>
         <div className="about__contact center">
           <a
-            href="https://github.com/Yogeshvari2902"
+            href="https://github.com/YogeshvariS"
             aria-label="github"
             target="_blank"
             rel="noreferrer"
@@ -33,7 +35,7 @@ export const About = () => {
             <GitHubIcon />
           </a>
           <a
-            href="mailto:yogeshvari2022@gmail.com"
+            href="mailto:suryawanshiyogeshvari@gmail.com"
             target="_blank"
             rel="noreferrer"
             aria-label="github"
@@ -42,7 +44,7 @@ export const About = () => {
             <EmailIcon />
           </a>
           <a
-            href="tel:+919111313187"
+            href="tel:+917415797717"
             target="_blank"
             rel="noreferrer"
             aria-label="github"
@@ -51,7 +53,7 @@ export const About = () => {
             <PhoneIcon />
           </a>
           <a
-            href="https://www.linkedin.com/in/yogeshvari-suryawanshi"
+            href="https://www.linkedin.com/in/yogisuryawanshi/"
             aria-label="github"
             className="link link--icon"
             target="_blank"
@@ -60,7 +62,7 @@ export const About = () => {
             <LinkedInIcon />
           </a>
           <a
-            href="https://drive.google.com/file/d/15g2Av9yOfVo14xiaO7W4m_hIEdtUbSmD/view?usp=sharing"
+            href="https://drive.google.com/file/d/169lLHfkfrdDv9WoCivd_ozTmtLx9A-TM/view?usp=sharing"
             aria-label="github"
             className="link link--icon"
             target="_blank"

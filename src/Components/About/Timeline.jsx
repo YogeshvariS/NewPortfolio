@@ -2,7 +2,7 @@ import React from "react";
 import "./Timeline.css";
 import {
   VerticalTimeline,
-  VerticalTimelineElement
+  VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 
@@ -31,106 +31,143 @@ export const Timeline = () => {
           My <span className="different">Timeline 💫</span>
         </h2>
         <VerticalTimeline lineColor={linecolor}>
+          {/* 💼 Eccentrix Innovation - StyleForge */}
+          <VerticalTimelineElement
+            date={"Sept 2025 - Present"}
+            contentStyle={{
+              boxShadow: `var(--shadow)`,
+              backgroundColor: `var(--clr-bg)`,
+              textAlign: "center",
+              color: `var(--clr-fg-alt)`,
+            }}
+            contentArrowStyle={{ borderRight: "16px solid rgb(33, 150, 243)" }}
+            iconStyle={{
+              backgroundColor: `var(--clr-bg)`,
+              color: `var(--clr-primary)`,
+            }}
+            icon={<WorkIcon />}
+          >
+            <h3 className="vertical-timeline-element-title">
+              Full Stack Web Developer
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle">
+              Eccentrix Innovation Pvt. Ltd. – Hyderabad
+            </h4>
+            <p>
+              Working on <b>StyleForge</b>, a fashion e-commerce platform with
+              3D customization. Building MERN features, REST APIs, admin CMS,
+              and integrating AWS S3 for media storage.
+            </p>
+          </VerticalTimelineElement>
+
+          {/* 💼 Techie Source */}
+          <VerticalTimelineElement
+            date={"April 2023 - July 2025"}
+            contentStyle={{
+              boxShadow: `var(--shadow)`,
+              backgroundColor: `var(--clr-bg)`,
+              textAlign: "center",
+              color: `var(--clr-fg-alt)`,
+            }}
+            contentArrowStyle={{ borderRight: "16px solid rgb(33, 150, 243)" }}
+            iconStyle={{
+              backgroundColor: `var(--clr-bg)`,
+              color: `var(--clr-primary)`,
+            }}
+            icon={<WorkIcon />}
+          >
+            <h3 className="vertical-timeline-element-title">
+              Software Developer
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle">
+              Techie Source Pvt. Ltd. – Indore
+            </h4>
+            <p>
+              Developed web & mobile features using React, Redux, Node.js and
+              MongoDB. Built secure authentication, social modules, reusable
+              components and tested APIs with Jest and Postman.
+            </p>
+          </VerticalTimelineElement>
+
+          {/* 🎓 Universal Informatics */}
           <VerticalTimelineElement
             date={"March 2022 - Feb 2023"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               backgroundColor: `var(--clr-bg)`,
               textAlign: "center",
-              color: `var(--clr-fg-alt)`
+              color: `var(--clr-fg-alt)`,
             }}
-            contentArrowStyle={{ borderRight: "16px solid  rgb(33, 150, 243)" }}
+            contentArrowStyle={{ borderRight: "16px solid rgb(33, 150, 243)" }}
             iconStyle={{
               backgroundColor: `var(--clr-bg)`,
-              color: `var(--clr-primary)`
+              color: `var(--clr-primary)`,
             }}
-            icon={<WorkIcon />}
+            icon={<SchoolIcon />}
           >
-            <h3
-              className="vertical-timeline-element-title"
-              data-aos="fade-right"
-            >
-              Student
-            </h3> 
-            <h4
-              className="vertical-timeline-element-subtitle"
-              data-aos="fade-right"
-            >
-              Masai School (Remote)
+            <h3 className="vertical-timeline-element-title">
+              Student – Full Stack Development
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle">
+              Universal Informatics
             </h4>
-            <p data-aos="fade-right">
-              Joined the Military style Bootcamp to learn Software Development
-              and Data Structures. Also learned many soft skills in the process.
+            <p>
+              Trained in full stack web development with focus on MERN stack,
+              data structures, and real-world project development.
             </p>
           </VerticalTimelineElement>
+
+          {/* 🎓 B.Tech */}
           <VerticalTimelineElement
-            date={"May 2019 - March 2022"}
+            date={"July 2018 - June 2022"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               backgroundColor: `var(--clr-bg)`,
               textAlign: "center",
-              color: `var(--clr-fg-alt)`
+              color: `var(--clr-fg-alt)`,
             }}
-            contentArrowStyle={{ borderRight: "16px solid  rgb(33, 150, 243)" }}
+            contentArrowStyle={{ borderRight: "16px solid rgb(33, 150, 243)" }}
             iconStyle={{
               backgroundColor: `var(--clr-bg)`,
-              color: `var(--clr-primary)`
+              color: `var(--clr-primary)`,
             }}
             icon={<SchoolIcon />}
           >
-            <h3
-              className="vertical-timeline-element-title"
-              data-aos="fade-right"
-            >
+            <h3 className="vertical-timeline-element-title">
               Bachelor of Technology, IT
             </h3>
-            <h4
-              className="vertical-timeline-element-subtitle"
-              data-aos="fade-right"
-            >
-            </h4>
-            <p data-aos="fade-right">
-              Lakshmi Narain College of Technology,Indore
-            </p>
+            <p>Lakshmi Narain College of Technology, Indore</p>
           </VerticalTimelineElement>
+
+          {/* 🎓 Higher Secondary */}
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date={"2016 - 2019"}
+            date={"2016 - 2018"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               backgroundColor: `var(--clr-bg)`,
               textAlign: "center",
-              color: `var(--clr-fg-alt)`
+              color: `var(--clr-fg-alt)`,
             }}
-            contentArrowStyle={{ borderRight: "16px solid  rgb(33, 150, 243)" }}
+            contentArrowStyle={{ borderRight: "16px solid rgb(33, 150, 243)" }}
             iconStyle={{
               backgroundColor: `var(--clr-bg)`,
-              color: `var(--clr-primary)`
+              color: `var(--clr-primary)`,
             }}
             icon={<SchoolIcon />}
           >
-            <h3
-              className="vertical-timeline-element-title"
-              data-aos="fade-right"
-            >
-              Completed Higher Secondary - Science
+            <h3 className="vertical-timeline-element-title">
+              Higher Secondary – Science
             </h3>
-            <h4
-              className="vertical-timeline-element-subtitle"
-              data-aos="fade-right"
-            >
-            </h4>
-            <p data-aos="fade-right">
-              GOVT Higher Secondary School Amla
-            </p>
+            <p>Govt. Higher Secondary School, Amla</p>
           </VerticalTimelineElement>
+
           <VerticalTimelineElement
             icon={<StarRateIcon />}
             iconStyle={{
               backgroundColor: `var(--clr-bg)`,
-              color: `var(--clr-primary)`
+              color: `var(--clr-primary)`,
             }}
-          ></VerticalTimelineElement>
+          />
         </VerticalTimeline>
       </div>
     </>

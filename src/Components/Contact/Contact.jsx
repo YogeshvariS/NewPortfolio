@@ -17,21 +17,21 @@ export const Contact = () => {
         </h2>
         <div className={"contactcontainer " + themename} data-aos="fade-right">
           <a
-            href="https://www.linkedin.com/in/yogeshvari-suryawanshi"
+            href="https://www.linkedin.com/in/yogisuryawanshi/"
             target="_blank"
             rel="noreferrer"
           >
             <FaLinkedin className="linkedin" />
           </a>
           <a
-            href="https://github.com/Yogeshvari2902"
+            href="https://github.com/YogeshvariS"
             target="_blank"
             rel="noreferrer"
           >
             <VscGithub className="github" />
           </a>
           <a
-            href="mailto:yogeshvari2022@gmail.com"
+            href="mailto:suryawanshiyogeshvari@gmail.com"
             target="_blank"
             rel="noreferrer"
           >
@@ -44,7 +44,7 @@ export const Contact = () => {
           >
             <BsInstagram className="twitter" />
           </a>
-          <a href="tel:+919111313187" target="_blank" rel="noreferrer">
+          <a href="tel:+917415797717" target="_blank" rel="noreferrer">
             <BsFillTelephoneFill className="phone" />
           </a>
         </div>

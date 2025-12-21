@@ -10,18 +10,18 @@ export const Github = () => {
     grade3: "#b22ff4",
     grade2: "#b265f6",
     grade1: "#c084f5",
-    grade0: "#ecd9fc"
+    grade0: "#ecd9fc",
   };
   const [{ themename }] = React.useContext(ThemeContext);
 
   return (
     <>
-      <div className={"section " + themename} data-aos="fade-right">
+      <div className={"section " + themename} data-aos="fade-right mt-10">
         <h2 className="section__title different">
           Days I <span className="different"> Code</span>
         </h2>
         <Githubcalendar
-          username="imbickydutta"
+          username="yogeshvaris"
           blockSize={15}
           blockMargin={5}
           theme={themename}
