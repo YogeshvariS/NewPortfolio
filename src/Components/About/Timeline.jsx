@@ -33,7 +33,7 @@ export const Timeline = () => {
         <VerticalTimeline lineColor={linecolor}>
           {/* 💼 Eccentrix Innovation - StyleForge */}
           <VerticalTimelineElement
-            date={"Sept 2025 - Present"}
+            date={"Sept 2025 - Dec 2025"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               backgroundColor: `var(--clr-bg)`,
@@ -54,15 +54,13 @@ export const Timeline = () => {
               Eccentrix Innovation Pvt. Ltd. – Hyderabad
             </h4>
             <p>
-              Working on <b>StyleForge</b>, a fashion e-commerce platform with
-              3D customization. Building MERN features, REST APIs, admin CMS,
-              and integrating AWS S3 for media storage.
+             Contributed to <b>StyleForge</b>, a fashion e-commerce platform with 3D customization features, involving full-stack development, REST API integration, admin CMS modules, AWS S3 integration, and performance optimization.
             </p>
           </VerticalTimelineElement>
 
           {/* 💼 Techie Source */}
           <VerticalTimelineElement
-            date={"April 2023 - July 2025"}
+            date={"May 2023 - Aug 2025"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               backgroundColor: `var(--clr-bg)`,
@@ -83,15 +81,13 @@ export const Timeline = () => {
               Techie Source Pvt. Ltd. – Indore
             </h4>
             <p>
-              Developed web & mobile features using React, Redux, Node.js and
-              MongoDB. Built secure authentication, social modules, reusable
-              components and tested APIs with Jest and Postman.
+              Developed web and mobile features using React.js, Redux, Node.js, and MongoDB, including authentication flows, API integration, reusable components, social modules, and API testing with Jest and Postman.
             </p>
           </VerticalTimelineElement>
 
           {/* 🎓 Universal Informatics */}
           <VerticalTimelineElement
-            date={"March 2022 - Feb 2023"}
+            date={"Dec 2022 - May 2023"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               backgroundColor: `var(--clr-bg)`,
@@ -106,14 +102,13 @@ export const Timeline = () => {
             icon={<SchoolIcon />}
           >
             <h3 className="vertical-timeline-element-title">
-              Student – Full Stack Development
+              Full Stack Development Training
             </h3>
             <h4 className="vertical-timeline-element-subtitle">
               Universal Informatics
             </h4>
             <p>
-              Trained in full stack web development with focus on MERN stack,
-              data structures, and real-world project development.
+              Completed industry-oriented training in full-stack web development with focus on the MERN stack, REST APIs, data structures, and real-world application development.
             </p>
           </VerticalTimelineElement>
 

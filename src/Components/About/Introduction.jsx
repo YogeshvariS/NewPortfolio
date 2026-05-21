@@ -22,24 +22,19 @@ export const Introduction = () => {
             </div>
             <div className="introduction_datacontainer">
               <h4>
-                Hi Everyone, I am{" "}
-                <span className="different">Yogeshvari Suryawanshi </span> a{" "}
-                <span className="different"> Full Stack MERN Developer </span>
-                with 2.5 years of professional experience in building scalable,
-                high-performance web applications. I specialize in developing
-                modern, responsive user interfaces with React.js and delivering
-                robust backend solutions using Node.js, Express, and MongoDB. I
-                have hands-on experience with REST API development, AWS S3
-                integration, performance optimization, and SEO. I enjoy
-                collaborating with cross-functional teams to build reliable,
-                user-focused, and production-ready applications.
+                Hi, I’m <span className="different">Yogeshvari Suryawanshi</span>, a{" "}
+                <span className="different">Frontend-focused Full Stack Developer</span>{" "}
+                with 2.5 years of experience building scalable and high-performance web
+                applications. I specialize in creating responsive, user-centric interfaces
+                and contributing to production-ready full-stack solutions with a strong
+                focus on performance, usability, and clean architecture.
               </h4>
               <h4>Some of my interests outside of development :</h4>
               <h4 className="different">
                 <span className="icons">
                   <ExitToAppIcon />
                 </span>
-                Reading Facts{" "}
+                Reading & Exploring Interesting Facts{" "}
               </h4>
               <h4 className="different">
                 <span className="icons">

@@ -20,9 +20,7 @@ export const About = () => {
         </h1>
         <Type />
         <p className="about__desc" data-aos="fade-right">
-          Full Stack MERN Developer building scalable web applications using
-          React, Node.js, Express, and MongoDB. Experienced in responsive UI
-          development, REST APIs, and SEO optimization.
+          Frontend-focused Full Stack Developer with 2.5 years of experience building scalable, high-performance web applications using React.js, TypeScript, Redux, Node.js, MongoDB, and AWS.
         </p>
         <div className="about__contact center">
           <a
