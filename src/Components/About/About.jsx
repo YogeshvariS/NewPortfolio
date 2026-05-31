@@ -32,8 +32,7 @@ export const About = () => {
           >
             <GitHubIcon />
           </a>
-          <a
-            href="mailto:suryawanshiyogeshvari@gmail.com"
+          <a href="mailto:suryawanshiyogeshvari@gmail.com"
             target="_blank"
             rel="noreferrer"
             aria-label="github"
